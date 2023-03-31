@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanic | Login</title>
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="../image/logo.png">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <!-- Google fonts logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #95A5A6;">
+        <div class="container-fluid">
+           <div class="d-flex align-items-center">
+                <a class="navbar-brand" href="../index.html" title="Pagina principal de Mechanic">
+                    <img src="../image/logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+                </a>
+                <p style="font-size: 36px; font-weight: bold; font-family:'Delicious Handrawn', cursive;">Mechanic</p>
+            </div> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html"><h5>Inicio</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html"><h5>Nosotros</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html"><h5>Contacto</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/login.html"><img src="../image/perfil.png" alt="perfil" width="50px" title="Iniciar sesión"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Inicio sesion -->
+    <div class="d-flex justify-content-center container-f">
+        <form class="container_inicio form d-flex flex-column">
+            <div class="login" style="margin-right: 10px;">
+                <p style="font-size: 20px;">Iniciar sesión</p>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label color_inicio">Usuario o correo
+                        electronico</label>
+                    <input type="text" class="form-control" id="usuario" style="padding-right: 50px;" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label color_inicio" style="padding-right: 50px;">Contraseña</label>
+                    <input type="password" class="form-control" id="clave" required>
+                </div>
+            </div>
+            <div class="d-flex" style="gap: 10px; margin-right: 25px;">
+                <button type="submit" class="btn btn-primary">Iniciar sesion</button>
+                <button type="button" id="registrar" class="btn btn-outline-secondary">Regístrate</button> 
+            </div>
+            <a href="https://www.latercera.com/resizer/Q03Bwu2JogqpVXtEUIKc1jKmzKk=/800x0/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/MMT4RMXYQVHIDKTALG2QIS3XGU.png"><p class="contra_perdida d-flex">¿Olvidé mi contraseña?</p></a>
+            <div class="mb-3">
+                <p class="text_sesiones">o prefiere iniciar sesión con</p>
+                <div class="container_sesiones">
+                    <a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser"><img src="../image/google.png" class="img_sesion" alt="logo google"></a>
+                    <a href="https://login.microsoftonline.com/72fd0b5a-8a6a-4cff-89f6-bde961f7e250/saml2?SAMLRequest=lZJRb9sgEID%2FCuIdG5M6dlGcKltVrVKrRrXbh71UZ4wTJgwZh6P%2B%2FHlOonUvlfqChLi77%2B4%2BVjfvgyVHHdB4V9Es4ZRop3xn3K6iL80dK%2BnNeoUwWHGQmzHu3bP%2BPWqMZEp0KE8vFR2Dkx7QoHQwaJRRyXrz%2BCBFwuUh%2BOiVt5RsEHWIE%2Bq7dzgOOtQ6HI3SL88PFd3HeECZpgqGw4hHE%2BIINulGrxJlU5jY7C8tnY%2B6fkrBGsD0LRP54i2j5HbqyjiI8ySXYtbvjEsGo4JH30fvrHE6UX5IC9F3vM2BlbAEdqX6npXX%2FZK1nb5eZn2hRc5nlqDkzgel5%2Bkr2oNFTcn9bUUhb3flryzfm0K1PS8z03VctbroyizfwRSEW0A0R%2F0vDXHU9w4juFhRwcWC8QUTy0YIeVXILE84L35Ssj3v7JtxJxefLbg9BaH80TRbtn2qG0peL06nAHo2KGd6%2BKju88Jw8UXXX7WzSj8i1%2Bfr%2F39o%2FQc%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=uGm0OCWkj3VxnUqImfQBFx5qjGdRT7G9e%2Fk8IoaHncMA6KK1WbaKUK64boSGmNSPs0UFxBZt7N91mCn0BCHrM5jan3yNvMsgNbWV7i0TxBuyAQ8tnBU7i%2FBCpgfp4jgQlcgpaaWpECLd4nzUF5e1TURaqOgFm%2Fsj3o7FkQOT%2FfmZo6Z%2BSOYtdt5SioREMQH%2BqqHmkVt9MUeYmrLcnaZwYmAmWjKPgKlrKPR2inGVI4KuGJYi%2BXRTY2dE6dAzv4mA%2BwF0otFjFeyoCM6OdRbvZ0TU6EgY47p7tXre2DXv%2BnQkhaWtVnaqEPK5%2FuGQLYs2lwMioyriFSujAIryi2m22w%3D%3D"><img src="../image/microsoft.png" class="img_sesion" alt="logo microsoft"></a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+<script src="../js/validaciones.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>

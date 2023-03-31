@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mechanic | Contacto</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../image/logo.png">
+        <!-- Bootstrap 5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+        <!-- Google fonts logo -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #95A5A6;">
+            <div class="container-fluid">
+               <div class="d-flex align-items-center">
+                    <a class="navbar-brand" href="../index.html" title="Pagina principal de Mechanic">
+                        <img src="../image/logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+                    </a>
+                    <p style="font-size: 36px; font-weight: bold; font-family:'Delicious Handrawn', cursive;">Mechanic</p>
+                </div> 
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html"><h5>Inicio</h5></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html"><h5>Nosotros</h5></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/contacto.html"><h5 style="font-weight: bold;">Contacto</h5></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/login.html"><img src="../image/perfil.png" alt="perfil" width="50px" title="Iniciar sesión"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Pagina principal -->
+        <div class="principal d-flex">
+            <div class="row">
+                <div class="col">
+                    <a href="tel: 22354 0700"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBgQ60Da7XGRC8fiZ6VDPirAm96JeMED6Uvw&usqp=CAU" alt="auto" class="img_contacto"></a>
+                </div>
+                <div class="col d-flex flex-column justify-content-center">
+                    <h1 class="letra_titulo">¿Quieres cotizar nuestro servicio?</h1>
+                    <p class="letra_desc">Llámenos o envía el formulario</p>
+                </div>
+            </div>
+        </div>
+        <!-- Formulario -->
+        <div class="formulario">
+            <form class="container_formulario">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label color">Nombres</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label color">Apellidos</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label color">Rut</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ej: 25.796.792-0" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label color">Correo electronico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@mechanic.com" required>
+                </div>
+                <label for="exampleFormControlInput1" class="form-label color">Región</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Metropolitana</option>
+                </select>
+                <br>
+                <label for="exampleFormControlInput1" class="form-label color">Comuna</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Cerrillos</option>
+                    <option value="1">Cerro Navia</option>
+                    <option value="2">Conchalí</option>
+                    <option value="3">El bosque</option>
+                    <option value="4">Estación Central</option>
+                    <option value="5">Huechuraba</option>
+                    <option value="6">Independencia</option>
+                    <option value="7">La Cisterna</option>
+                    <option value="8">La Florida</option>
+                    <option value="9">La Granja</option>
+                    <option value="10">La Pintana</option>
+                    <option value="11">La Reina</option>
+                    <option value="12">Las Condes</option>
+                    <option value="13">Lo Barnechea</option>
+                    <option value="14">Lo Espejo</option>
+                    <option value="15">Lo Prado</option>
+                    <option value="16">Macul</option>
+                    <option value="17">Maipú</option>
+                    <option value="18">Pedro Aquirre Cerda</option>
+                    <option value="19">Peñalolén</option>
+                    <option value="20">Provivencia</option>
+                    <option value="21">Pudahuel</option>
+                    <option value="22">Quilicura</option>
+                    <option value="23">Quinta Normal</option>
+                    <option value="24">Recoleta</option>
+                    <option value="25">Renca</option>
+                    <option value="26">San Joaquín</option>
+                    <option value="27">San Ramón</option>
+                    <option value="28">Santiago</option>
+                    <option value="29">Vitacura</option>
+                </select>
+                <br>
+                <br>
+                <button class="boton_enviar" type="submit">Enviar</button>
+            </form>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,42 @@
+body {
+    background: url(https://img.freepik.com/vector-premium/fondo-engranaje-mecanico_55431-54.jpg);
+}
+
+.container_inicio {
+    background-color: white;
+    display: flex;
+    margin-top: 5%;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 7px 13px 37px black;
+    border-radius: 5%;
+    width: 350px;
+    font-weight: bold;
+}
+
+.color_inicio {
+    font-size: 14px;
+}
+
+.contra_perdida {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.container_sesiones {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+
+.text_sesiones {
+    text-align: center;
+    font-size: 14px;
+}
+
+.img_sesion {
+    display: flex;
+    width: 50px;
+    border-radius: 50%;
+}

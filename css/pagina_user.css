@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.container_atenciones{
+    background: rgb(255, 255, 255);
+    border-radius: 3%;
+    color: rgb(0, 0, 0);
+    width: 110%;
+    height: 430px;  
+    box-shadow: 10px black inset;
+}
+
+.text_bienvenida{
+    color: white;
+}
+
+.imagen{
+    width: 380px;
+    height: 185px;
+    float: right;
+}
+
+.boton {
+    margin-top: 20px;
+}
+
+@media(max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container_atenciones {
+        width: auto;
+    }
+}

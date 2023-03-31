@@ -1,0 +1,14 @@
+body {
+    background: url(../image/bg_registro.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container_formulario {
+    margin: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 95%;
+}
